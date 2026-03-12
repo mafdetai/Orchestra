@@ -55,21 +55,7 @@ pnpm -v
 
 ---
 
-## 第五步：从 GitHub 获取代码
-
-请把代码放在 WSL 文件系统（例如 `~/projects`），不要放到 `/mnt/c` 下。
-
-```bash
-mkdir -p ~/projects
-cd ~/projects
-
-git clone <你的 GitHub 仓库地址> ai-workflow-app
-cd ai-workflow-app
-```
-
----
-
-## 第六步：配置 `.env`
+## 第五步：配置 `.env`
 
 优先从模板复制：
 
@@ -105,7 +91,7 @@ ADMIN_PASSWORD_HASH=请用 pnpm hash:password 生成
 
 ---
 
-## 第七步：安装依赖并启动
+## 第六步：安装依赖并启动
 
 ```bash
 pnpm install
