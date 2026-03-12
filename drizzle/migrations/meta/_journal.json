@@ -1,0 +1,62 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1772449890420,
+      "tag": "0000_dizzy_darwin",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1772454260593,
+      "tag": "0001_known_ink",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1772550876103,
+      "tag": "0002_purple_gladiator",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1772591438903,
+      "tag": "0003_cold_madame_masque",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1772599699124,
+      "tag": "0004_petite_kat_farrell",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1772601870845,
+      "tag": "0005_jittery_killer_shrike",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1772610581956,
+      "tag": "0006_absurd_crusher_hogan",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1772798600000,
+      "tag": "0007_workflow_template_versions",
+      "breakpoints": true
+    }
+  ]
+}
