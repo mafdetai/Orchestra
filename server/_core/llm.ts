@@ -206,8 +206,8 @@ const resolveApiUrl = () =>
     ? `${ENV.forgeApiUrl.replace(/\/$/, "")}/v1/chat/completions`
     : "https://api.openai.com/v1/chat/completions";
 
-// Model name: configurable via LLM_MODEL env var, defaults to gpt-4o
-const resolveModel = () => process.env.LLM_MODEL ?? "gpt-4o";
+// Model name: configurable via LLM_MODEL env var, defaults to xxxxx
+const resolveModel = () => process.env.LLM_MODEL ?? "xxxxx";
 
 const assertApiKey = () => {
   if (!ENV.forgeApiKey) {
@@ -217,7 +217,7 @@ const assertApiKey = () => {
 
 /**
  * 直接调用 Gemini REST API（generateContent）
- * 支持 gemini-1.5-pro / gemini-1.5-flash 等模型
+ * 支持 xxxxx / xxxxx 等模型
  */
 export async function invokeGemini(
   params: InvokeParams & { model: string }

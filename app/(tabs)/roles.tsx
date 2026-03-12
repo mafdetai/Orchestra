@@ -135,7 +135,7 @@ function RoleEditModal({
                           }]}
                           onPress={() => setDraft(d => ({
                             ...d,
-                            apiConfig: { ...(d.apiConfig ?? { provider: "builtin" as ApiProvider, capabilityType: "general" as CapabilityType }), provider: p, model: p === "openai" ? "gpt-4o" : "default" },
+                            apiConfig: { ...(d.apiConfig ?? { provider: "builtin" as ApiProvider, capabilityType: "general" as CapabilityType }), provider: p, model: p === "openai" ? "xxxxx" : "default" },
                           }))}
                           activeOpacity={0.8}
                         >

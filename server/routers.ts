@@ -171,8 +171,8 @@ async function callAI(
       const roleType = apiConfig?.roleType ?? "expert";
       // 指挥官和汇总者使用 Pro，专家使用 Flash
       const geminiModel = (roleType === "initiator" || roleType === "summarizer")
-        ? "gemini-2.5-pro"
-        : "gemini-2.5-flash";
+        ? "xxxxx"
+        : "xxxxx";
       // 如果策略强制了模型，优先使用策略模型
       const forcedModel = apiConfig?.model;
       const finalModel = forcedModel && forcedModel.startsWith("gemini") ? forcedModel : geminiModel;
@@ -193,7 +193,7 @@ async function callAI(
     const baseUrl = provider === "openai"
       ? "https://api.openai.com/v1"
       : (apiConfig?.baseUrl ?? "https://api.openai.com/v1");
-    const model = apiConfig?.model ?? "gpt-4o";
+    const model = apiConfig?.model ?? "xxxxx";
     const response = await fetch(`${baseUrl}/chat/completions`, {
       method: "POST",
       headers: { "Content-Type": "application/json", "Authorization": `Bearer ${apiKey}` },

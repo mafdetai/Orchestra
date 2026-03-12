@@ -27,7 +27,7 @@ export const API_PROVIDER_CONFIG: Record<ApiProvider, { label: string; color: st
   openai: {
     label: 'OpenAI',
     color: '#10A37F',
-    models: ['gpt-4o', 'gpt-4o-mini', 'gpt-4-turbo', 'gpt-3.5-turbo'],
+    models: ['xxxxx', 'xxxxx', 'xxxxx', 'xxxxx'],
   },
   custom: {
     label: '自定义 API',

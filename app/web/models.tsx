@@ -24,11 +24,11 @@ export interface AiModelConfig {
 
 // 常用服务商快捷配置
 const PRESET_PROVIDERS = [
-  { label: "OpenAI",     apiUrl: "https://api.openai.com/v1",         modelName: "gpt-4o",           color: "#10A37F" },
-  { label: "DeepSeek",   apiUrl: "https://api.deepseek.com/v1",       modelName: "deepseek-chat",    color: "#4D6BFE" },
-  { label: "Anthropic",  apiUrl: "https://api.anthropic.com/v1",      modelName: "claude-3-5-sonnet-20241022", color: "#D97706" },
-  { label: "Groq",       apiUrl: "https://api.groq.com/openai/v1",    modelName: "llama-3.3-70b-versatile", color: "#F97316" },
-  { label: "Moonshot",   apiUrl: "https://api.moonshot.cn/v1",        modelName: "moonshot-v1-8k",   color: "#8B5CF6" },
+  { label: "OpenAI",     apiUrl: "https://api.openai.com/v1",         modelName: "xxxxx",           color: "#10A37F" },
+  { label: "DeepSeek",   apiUrl: "https://api.deepseek.com/v1",       modelName: "xxxxx",    color: "#4D6BFE" },
+  { label: "Anthropic",  apiUrl: "https://api.anthropic.com/v1",      modelName: "xxxxx", color: "#D97706" },
+  { label: "Groq",       apiUrl: "https://api.groq.com/openai/v1",    modelName: "xxxxx", color: "#F97316" },
+  { label: "Moonshot",   apiUrl: "https://api.moonshot.cn/v1",        modelName: "xxxxx",   color: "#8B5CF6" },
   { label: "自定义",     apiUrl: "",                                   modelName: "",                 color: "#6B7280" },
 ];
 
@@ -199,7 +199,7 @@ function ModelFormModal({
                 style={[styles.input, { backgroundColor: colors.surface, borderColor: colors.border, color: colors.foreground }]}
                 value={modelName}
                 onChangeText={setModelName}
-                placeholder="例如：gpt-4o / deepseek-chat"
+                placeholder="例如：xxxxx / xxxxx"
                 placeholderTextColor={colors.muted}
                 autoCapitalize="none"
                 autoCorrect={false}

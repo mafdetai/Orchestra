@@ -125,7 +125,7 @@ export const aiModels = pgTable("ai_models", {
   provider: varchar("provider", { length: 64 }),          // 服务商，如 "DeepSeek"
   apiUrl: varchar("apiUrl", { length: 512 }).notNull(),   // API 地址，如 https://api.deepseek.com
   apiKey: text("apiKey").notNull(),                       // API Key（服务端加密存储，返回前脱敏）
-  modelName: varchar("modelName", { length: 128 }).notNull(), // 模型标识符，如 deepseek-chat
+  modelName: varchar("modelName", { length: 128 }).notNull(), // 模型标识符，如 xxxxx
   isDefault: integer("isDefault").default(0).notNull(),  // 是否为该用户的默认模型
   createdAt: timestamp("createdAt").defaultNow().notNull(),
   updatedAt: timestamp("updatedAt").defaultNow().notNull(),

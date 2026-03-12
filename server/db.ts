@@ -850,12 +850,12 @@ export async function getSquareDiscussionPreviews(
  * 默认执行策略（数据库未配置时的兜底值）
  */
 export const DEFAULT_POLICY_VALUES = {
-  "policy.visitor.allowedModel": "gemini-2.5-flash",
+  "policy.visitor.allowedModel": "xxxxx",
   "policy.visitor.maxExperts": "2",
   "policy.visitor.dailyIpLimit": "5",
   "policy.visitor.maxInputChars": "5000",
   "policy.visitor.timeoutMs": "30000",
-  "policy.registered_no_key.allowedModel": "gemini-2.5-flash",
+  "policy.registered_no_key.allowedModel": "xxxxx",
   "policy.registered_no_key.maxExperts": "2",
   "policy.registered_no_key.dailyIpLimit": "10",
   "policy.registered_no_key.maxInputChars": "5000",
