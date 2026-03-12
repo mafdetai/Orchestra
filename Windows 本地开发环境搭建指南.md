@@ -55,19 +55,7 @@ pnpm -v
 
 ---
 
-## 第五步：安装 VS Code 并连接 WSL
-
-1. Windows 安装 [Visual Studio Code](https://code.visualstudio.com/)
-2. 安装扩展：`ms-vscode-remote.remote-wsl`
-3. 在 WSL 项目目录执行：
-
-```bash
-code .
-```
-
----
-
-## 第六步：从 GitHub 获取代码
+## 第五步：从 GitHub 获取代码
 
 请把代码放在 WSL 文件系统（例如 `~/projects`），不要放到 `/mnt/c` 下。
 
@@ -81,7 +69,7 @@ cd ai-workflow-app
 
 ---
 
-## 第七步：配置 `.env`
+## 第六步：配置 `.env`
 
 优先从模板复制：
 
@@ -117,7 +105,7 @@ ADMIN_PASSWORD_HASH=请用 pnpm hash:password 生成
 
 ---
 
-## 第八步：安装依赖并启动
+## 第七步：安装依赖并启动
 
 ```bash
 pnpm install
