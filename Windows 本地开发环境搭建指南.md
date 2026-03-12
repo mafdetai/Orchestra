@@ -105,14 +105,8 @@ GEMINI_API_KEY=your_key
 # 或 BUILT_IN_FORGE_API_URL + BUILT_IN_FORGE_API_KEY
 
 # 管理后台登录（可选，但建议本地也配置）
-ADMIN_USERNAME=admin
+ADMIN_USERNAME=administrator
 ADMIN_PASSWORD_HASH=请用 pnpm hash:password 生成
-```
-
-生成管理员密码哈希示例：
-
-```bash
-pnpm hash:password your_admin_password
 ```
 
 重要安全说明：
